@@ -3,7 +3,7 @@ import mysql.connector
 conexao = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Liriorosa5*.,',
+    password='xxxxxxxxx',
     database='bdyoutube',
 )
 cursor = conexao.cursor()
@@ -45,3 +45,4 @@ nome_produto = "todynho"
 comando = f'DELETE FROM vendas WHERE nome_produto = "{nome_produto}"'
 cursor.execute(comando)
 conexao.commit() # edita o banco de dados
+
